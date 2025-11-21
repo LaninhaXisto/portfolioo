@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Portfólio de Alla</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- BACKGROUND / SHAPES -->
+    <div class="background-elements" aria-hidden="true">
+        <div class="geom g1"></div>
+        <div class="geom g2"></div>
+        <div class="geom g3"></div>
+    </div>
+
+    <header>
+        <div class="header-content">
+            <img src="img/foto3.jpg" alt="Imagem do Artista (Allana)" />
+            <h1>Portifólios de redação</h1>
+            <p>Trabalho referente a 14 redações que foram feitas em 100 dias. Responsável pelas redações: <strong>Allana Manuely Xisto</strong>.</p>
+        </div>
+    </header>
+
+    <section class="skills" aria-labelledby="descricao-title">
+        <h2 id="descricao-title">Descrição</h2>
+        <ul>
+            <li>Redações</li>
+            <li>Imagens</li>
+            <li>Notas</li>
+        </ul>
+    </section>
+
+    <section class="projects" aria-labelledby="historico-title">
+        <h2 id="historico-title">Históricos de redação</h2>
+
+        <!-- PROJECT CARDS (mantive seus caminhos de imagem e textos) -->
+        <div class="projects-grid">
+            <div class="project-item" onclick="openModal('projeto1')" role="button" tabindex="0">
+                <img src="img/putting on your face.jpg" alt="Foto de uma mulher no espelho." />
+                <h3>Redação 1.</h3>
+                <p>Por que os procedimentos estéticos estão aumentando entre os jovens?</p>
+            </div>
+
+            <div class="project-item" onclick="openModal('projeto2')" role="button" tabindex="0">
+                <img src="img/How the world of disability has changed in the last 80 years – in pictures.jpg" alt="Pessoa com deficiência jogando." />
+                <h3>Redação 2.</h3>
+                <p>Acessibilidade e inclusão de pessoas com deficiência no Brasil.</p>
+            </div>
+
+            <div class="project-item" onclick="openModal('projeto3')" role="button" tabindex="0">
+                <img src="img/Captura de tela 2025-11-21 142024.png" alt="Foto de uma moça no mercado." />
+                <h3>Redação 3.</h3>
+                <p>Principais fatores que influenciam a qualidade de vida e o bem-estar da população.</p>
+            </div>
+
+            <div class="project-item" onclick="openModal('projeto4')" role="button" tabindex="0">
+                <img src="img/Captura de tela 2025-11-21 142440.png" alt="Menino no meio do lixão." />
+                <h3>Redação 4.</h3>
+                <p>As mudanças climáticas no Brasil e seus desafios.</p>
+            </div>
+
+            <div class="project-item" onclick="openModal('projeto5')" role="button" tabindex="0">
+                <img src="img/Misty Keasler.jpg" alt="lixo eletronico" />
+                <h3>Redação 5.</h3>
+                <p>As consequências do descarte de lixo eletrônico.</p>
+            </div>
+
+            <div class="project-item" onclick="openModal('projeto6')" role="button" tabindex="0">
+                <img src="img/Asi estamos.jpg" alt="Menino no meio de embalagens." />
+                <h3>Redação 6.</h3>
+                <p>O consumo de ultraprocessados e suas consequências à saúde.</p>
+            </div>
+
+            <div class="project-item" onclick="openModal('projeto7')" role="button" tabindex="0">
+                <img src="img/👀 eyes on the prize 👀.jpg" alt="Vício em jogos de apostas." />
+                <h3>Redação 7.</h3>
+                <p>Fatores e efeitos da dependência em jogos de apostas na web.</p>
+            </div>
+
+            <div class="project-item" onclick="openModal('projeto8')" role="button" tabindex="0">
+                <img src="img/Trabalho voluntário_ como experiências sociais agregam valor na sua carreira.jpg" alt="Trabalho voluntário." />
+                <h3>Redação 8.</h3>
+                <p>A importância do trabalho voluntário no combate às desigualdades sociais.</p>
+            </div>
+
+            <div class="project-item" onclick="openModal('projeto9')" role="button" tabindex="0">
+                <img src="img/download (7).jpg" alt="Foto de criança em sala de aula." />
+                <h3>Redação 9.</h3>
+                <p>Adultização infantil - consequências da perda irreparável da infância.</p>
+            </div>
+
+            <div class="project-item" onclick="openModal('projeto10')" role="button" tabindex="0">
+                <img src="img/download (6).jpg" alt="Imagem Redação 10" />
+                <h3>Redação 10.</h3>
+                <p>Caminhos para combater o etarismo nas relações sociais.</p>
+            </div>
+
+            <div class="project-item" onclick="openModal('projeto11')" role="button" tabindex="0">
+                <img src="img/Salary Survey_ What top real estate CEOs earn.jpg" alt="Mão segurando dinheiro." />
+                <h3>Redação 11.</h3>
+                <p>A importância da educação financeira para os jovens.</p>
+            </div>
+
+            <div class="project-item" onclick="openModal('projeto12')" role="button" tabindex="0">
+                <img src="img/🇧🇷.jpg" alt="Pessoas em um bar." />
+                <h3>Redação 12.</h3>
+                <p>Desafios para a valorização da cultura popular brasileira.</p>
+            </div>
+
+            <div class="project-item" onclick="openModal('projeto13')" role="button" tabindex="0">
+                <img src="img/download (8).jpg" alt="Lugar sem saneamento básico" />
+                <h3>Redação 13.</h3>
+                <p>Caminhos para a universalização do saneamento básico no Brasil.</p>
+            </div>
+
+            <div class="project-item" onclick="openModal('projeto14')" role="button" tabindex="0">
+                <img src="img/A sombra do basquete_.jpg" alt="pessoa jogando basquete." />
+                <h3>Redação 14.</h3>
+                <p>O papel do esporte como ferramenta de transformação social.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODAIS (PROJETO 1..14) - conteúdo preservado -->
+    <!-- projeto1 -->
+    <div id="projeto1" class="modal" role="dialog" aria-modal="true" aria-labelledby="titulo-projeto1">
+        <div class="modal-content">
+            <div class="flower-animation modal-flower" aria-hidden="true"></div>
+            <button class="close" aria-label="Fechar" onclick="closeModal('projeto1')">&times;</button>
+            <h2 id="titulo-projeto1">Nota: 465</h2>
+            <p>
+                O sociólogo polonês Zygmunt Bauman, discute o sentimento generalizado de medo, em que discute a comunidade estética, criada pela indústria do entretenimento, orientada pela aparência e o uso de celebridades como referência. Diante desse cenário, observa-se a alienação forçada em relação aos jovens a um padrão somente alcançado por procedimentos estéticos. Desta forma, é fundamental discutir como a falta de autoestima pode causar lacunas que agravam reveses emocionais e destaca a falta de investimentos na saúde psicológica.
+                <br>Nesse senário, o lema apresentado no filme "Feio" de Scott Westerfield, representa uma sociedade de paz, felicidade e sobretudo a perfeição. Nele, é destacado os jovens em que completam 16 anos devem passar por diversos procedimentos em busca de alcançar tal perfeição. No entanto, ao observar a realidade contemporânea, é perceptível que estamos propínquos a agremiação presente na obra, onde jovens estão inseridos a um paradigma irracional, que afeta diretamente o estado mental provocando um medo profundo em relação a própria imagem.
+                <br>Ademais, é evidente a negligência do poder público quanto a saúde psicológica fator que contribui significativamente para o agravamento de transtornos mentais nesta faixa etária. O projeto de pesquisa realizado pela "Dove, pela autoestima", revela o impacto das redes sociais e filtros, na autoestima de meninas (entre 10 à 17 anos). O estudo apronta de 84% das jovens com 13 anos aplicam filtros em suas fotos, de modo a mudar sua imagem. Visto isso, conclui-se que adolescentes estão desenvolvendo distorção excessiva de sua imagem, por conta das mídias necessitando cada vez mais acompanhamento.
+                <br>Em suma, conclui-se que esse grupo fragilizado resulta na falta de pertencimento de muitos jovens. Portanto, torna-se imprescindível que o poder público com unidades de saúde, invistam em políticas públicas que garantam o acesso à saúde psicológica, mas também programas educacionais adequados.
+            </p>
+            <p>data: 17/11/2025</p>
+        </div>
+    </div>
+
+    <!-- projeto2 -->
+    <div id="projeto2" class="modal" role="dialog" aria-modal="true" aria-labelledby="titulo-projeto2">
+        <div class="modal-content">
+            <div class="flower-animation modal-flower" aria-hidden="true"></div>
+            <button class="close" aria-label="Fechar" onclick="closeModal('projeto2')">&times;</button>
+            <h2 id="titulo-projeto2">Nota: 930</h2>
+            <p>
+                A Constituição Federal de 1988 garante igualdade a todos os cidadãos, mas a realidade brasileira ainda está distante desse princípio quando se trata das pessoas com deficiência. Apesar da existência de leis como a n° 10.098/2000, que estabelece normas de acessibilidade, e da Lei Brasileira de Inclusão (n° 13.146/2015), muitos indivíduos seguem enfrentando barreiras físicas e sociais que limitam sua participação. Nesse cenário, é fundamental analisar tais obstáculos e propor medidas que efetivem a inclusão.
+                <br>Um dos principais desafios é a falta de acessibilidade arquitetônica e urbana. Rampas danificadas, calçadas irregulares e transportes públicos sem adaptação revelam a negligência com a mobilidade dessa população. Como destacou Milton Santos, a exclusão espacial gera uma "cidadania mutilada", pois priva indivíduos do acesso a direitos básicos, como educação, saúde e lazer.
+                <br>Assim, a ausência de estrutura adequada não só compromete a autonomia, como também reforça desigualdades históricas no país.
+                <br>Além disso, barreiras atitudinais ainda se mostram relevantes. O capacitismo, caracterizado pela desvalorização das capacidades das pessoas com deficiência, é frequente em escolas e no mercado de trabalho. Romeu Kazumi Sassaki, referência em inclusão no Brasil, afirma que a verdadeira integração depende da mudança de mentalidades, indo além das adaptações físicas. Nesse sentido, a falta de representatividade midiática e a escassez de políticas educativas inclusivas perpetuam preconceitos e dificultam a valorização da diversidade humana.
+                <br>Diante disso, o Ministério Público Federal deve intensificar a fiscalização da legislação vigente, aplicando sanções a instituições que descumprirem as normas. Paralelamente, o Ministério da Educação precisa implementar formações continuadas sobre práticas inclusivas para professores, enquanto a mídia nacional deve promover campanhas contra o capacitismo. Com tais medidas, será possível transformar a igualdade prevista em lei em realidade concreta, garantindo dignidade e cidadania plena às pessoas com deficiência no Brasil.
+            </p>
+            <p>04/08/2025</p>
+        </div>
+    </div>
+
+    <!-- projeto3 -->
+    <div id="projeto3" class="modal" role="dialog" aria-modal="true" aria-labelledby="titulo-projeto3">
+        <div class="modal-content">
+            <div class="flower-animation modal-flower" aria-hidden="true"></div>
+            <button class="close" aria-label="Fechar" onclick="closeModal('projeto3')">&times;</button>
+            <h2 id="titulo-projeto3">Nota: 840</h2>
+            <p>
+                De acordo com a Organização Mundial da Saúde, qualidade de vida vai além da ausência de doenças, englobando aspectos físicos, sociais, econômicos e emocionais. No entanto, no cenário atual, diversos fatores comprometem esse ideal, como a precariedade de serviços públicos, a rotina exaustiva de trabalho e os hábitos pouco saudáveis. Assim, refletir sobre os elementos que influenciam o bem-estar coletivo é essencial para compreender os desafios da população brasileira.
+                <br>Em primeiro lugar, é evidente que fatores estruturais, como saneamento, moradia e acesso à saúde, exercem papel determinante. No Brasil, segundo dados do Instituto Trata Brasil (2023), milhões de pessoas ainda não possuem coleta de esgoto, o que compromete a saúde e a dignidade. Além disso, a carência de políticas de prevenção, como incentivo à atividade física e alimentação equilibrada, agrava doenças crônicas e reduz a expectativa de vida.
+                <br>Outro fator relevante é o bem-estar subjetivo, que envolve equilíbrio emocional, lazer e relações sociais saudáveis. A lógica produtivista, marcada pela sobrecarga de trabalho e pelo estresse, prejudica o desenvolvimento pessoal. Assim, cresce o número de indivíduos vulneráveis a transtornos mentais, como depressão e ansiedade, comprometendo também a vida em comunidade.
+                <br>Portanto, a melhoria da qualidade de vida exige medidas integradas. Cabe ao Estado ampliar investimentos em saneamento, saúde preventiva e espaços públicos de lazer. Paralelamente, empresas devem adotar políticas que valorizem o trabalhador, assegurando jornadas equilibradas. Dessa forma, será possível construir uma sociedade mais justa, em que o indivíduo usufrua de bem-estar em todas as dimensões da vida.
+            </p>
+            <p>11/08/2025</p>
+        </div>
+    </div>
+
+    <!-- projeto4 -->
+    <div id="projeto4" class="modal" role="dialog" aria-modal="true" aria-labelledby="titulo-projeto4">
+        <div class="modal-content">
+            <div class="flower-animation modal-flower" aria-hidden="true"></div>
+            <button class="close" aria-label="Fechar" onclick="closeModal('projeto4')">&times;</button>
+            <h2 id="titulo-projeto4">Nota: 840</h2>
+            <p>
+                As mudanças climáticas representam um dos maiores desafios do século XXI. De acordo com a ONU, elas configuram uma ameaça global urgente. No Brasil, esse fenômeno é visível em secas severas e enchentes recorrentes, que afetam a produção de alimentos, a biodiversidade e a qualidade de vida da população. Nesse contexto, torna-se indispensável refletir sobre os fatores que intensificam essas transformações e os desafios que o país enfrenta para enfrentá-las.
+                <br>Um dos principais agravantes é o desmatamento, sobretudo na Amazônia, responsável por alterar o regime de chuvas e ampliar a emissão de gases de efeito estufa. Essa destruição compromete não apenas o equilíbrio ambiental, mas também a economia agrícola, que depende diretamente da estabilidade climática. Segundo relatórios do Painel Intergovernamental sobre Mudanças Climáticas (IPCC), os países tropicais, como o Brasil, são os mais vulneráveis, visto que sofrem com estiagens prolongadas e inundações, colocando em risco a segurança alimentar e energética.
+                <br>Além disso, a desigualdade social potencializa os impactos da crise climática. Muitas cidades brasileiras carecem de infraestrutura adequada para suportar eventos extremos, o que torna as populações de baixa renda, localizadas em áreas de risco, as mais atingidas. Deslizamentos de terra, enchentes em periferias e a escassez de água em regiões semiáridas evidenciam como os efeitos do aquecimento global ultrapassam o campo ambiental e atingem diretamente a esfera social.
+                <br>Diante disso, medidas urgentes são necessárias. O Estado deve investir em reflorestamento e em matrizes energéticas limpas, além de desenvolver infraestrutura urbana resiliente. Ademais, escolas devem implementar programas de educação ambiental, conscientizando jovens sobre práticas sustentáveis. Também é essencial a regulação da atividade econômica predatória, como o desmatamento ilegal. Assim, com políticas públicas eficazes e participação social, será possível mitigar os efeitos das mudanças climáticas e garantir um futuro mais sustentável.
+            </p>
+            <p>18/08/2025</p>
+        </div>
+    </div>
+
+    <!-- projeto5 -->
+    <div id="projeto5" class="modal" role="dialog" aria-modal="true" aria-labelledby="titulo-projeto5">
+        <div class="modal-content">
+            <div class="flower-animation modal-flower" aria-hidden="true"></div>
+            <button class="close" aria-label="Fechar" onclick="closeModal('projeto5')">&times;</button>
+            <h2 id="titulo-projeto5">Nota: 800</h2>
+            <p>
+                O avanço tecnológico trouxe inúmeros benefícios à sociedade, mas também gerou um problema crescente: O descarteinadequado de lixo eletrônico. Celulares, computadores e eletrodomésticos, quando descartamos de forma incorreta, tornam-se fontes de poluição que afetam tanto o meio ambiente quanto a saúde humana.
+                <br>Um dos principais impactos está relacionado a contaminação do solo e da água. Aparelhos eletrônicos possuem metaispesados, como chumbo e mercúrio, que, ao se infiltrarem no meio ambiente prejudicam ecossistemas inteiros. Além disso, trabalhadores informais quem lidam com esses materiais, muitas vezes sem proteção adequada, ficam expostos a doenças graves.Outro efeito preocupante é o aumento da desigualdade social. Enquanto alguns países destinam corretamente essesresíduos para reciclagem, grande parte do lixo eletrônico é enviada a regiões mais pobres, que bem possuem estrutura para lidar com tamanha demanda. Assim, populações vulneráveis tornam-se mais atingidas pelos riscos ambientais e sanitários.
+                <br>Portanto, é urgente que o estado amplie políticas de coleta seletiva e reciclem resíduos tecnológicos de forma eficaz.
+                <br>Ademais, campanhas de conscientização devem informar a população sobre os locais de descarte adequado. Somente com ações conjuntas será possível reduzir os danos do lixo eletrônico e garantir um futuro mais sustentável.
+            </p>
+            <p>27/08/2025</p>
+        </div>
+    </div>
+
+    <!-- projeto6 -->
+    <div id="projeto6" class="modal" role="dialog" aria-modal="true" aria-labelledby="titulo-projeto6">
+        <div class="modal-content">
+            <div class="flower-animation modal-flower" aria-hidden="true"></div>
+            <button class="close" aria-label="Fechar" onclick="closeModal('projeto6')">&times;</button>
+            <h2 id="titulo-projeto6">Nota: 745</h2>
+            <p>
+                O consumo de alimentos ultraprocessados, como refrigerante e embutidos, tornou-se um problema de saúde pública. Segunda a organização Pan-Americana de Saúde (2022) esses produtos representam 20% das calorias consumidas pelos brasileiros, contribuindo para doenças como obesidade e diabetes. Assim, é necessário analisar os impactos dessa prática e propor soluções.
+                <br>Em primeiro lugar, esses alimentos possuem altos teores de sódio, açúcar e gorduras. que em excesso, prejudicam o organismo. O filósofo Aristoteles defendia o equilíbrio como condição para a vida salvável, ideia incompatível como uma dieta baseado em ultraprocessados. Dados do IBGE (2020) revelam que um em cada quatro adultos no Brasil é obeso, evidenciando a gravidade do cenário.
+                <br>Além disso, a publicidade voltada a crianças e jovens intensifica o consumo precoce desses produtos. Para Foucault, o poder se manifesta também no controle dos hábitos, o que explica a forte influência da indústria alimentícia sobre escolhas individuais.
+                <br>Portanto cabe ao Ministério da Saúde ampliar programas de educação alimentar nas escolas, enquanto a Anvisa deve reforçar a regulação da publicidade infantil. Com tais medidas, respeitando o direito humano, será possível reduzir danos à saúde e incentivar práticas mais equilibradas.
+            </p>
+            <p>02/09/2025</p>
+        </div>
+    </div>
+
+    <!-- projeto7 -->
+    <div id="projeto7" class="modal" role="dialog" aria-modal="true" aria-labelledby="titulo-projeto7">
+        <div class="modal-content">
+            <div class="flower-animation modal-flower" aria-hidden="true"></div>
+            <button class="close" aria-label="Fechar" onclick="closeModal('projeto7')">&times;</button>
+            <h2 id="titulo-projeto7">Nota: 830</h2>
+            <p>
+                Com o avanço das tecnologias digitais, os jogos e apostas online tornaram-se parte do cotidiano de muitos brasileiros. Contudo, o fácil acesso e a promessa de ganhos rápidos tem impulsionado um preocupante aumento nos casos de dependência. Essa problemática reflete tanto a fragilidade emocional dos indivíduos, quanto a ausência de políticas públicas de controle eficazes.
+                <br>Segundo da pesquisa do DataFolha (2024), mais de 20% dos jovens brasileiros já realizaram apostas na internet, e muitos relatam prejuízos financeiros ou psicológico. O filósofo Aristóteles já afirmava que o excesso conduz o vício, e essa ideia se aplica ao contexto atual: a busca incessante por recompensas instantâneas compromete o equilíbrio racional e emocional do jogador. Além disso, a influência de propagandas em redes sociais estimula o consumo irresponsável, transformando o lazer em um vício silencioso.
+                <br>As consequências dessa dependência vão além do endividamento. Muitos apostadores desenvolvem ansiedade, isolamento social e até depressão, o que afeta famílias e comunidade inteiras.
+                <br>Portanto é essencial que o Ministério da Saúde, em parceria com escolas e plataformas digitais, promova campanhas de conscientização e regulamentação da publicidade de apostas on-line. Além de oferecer atendimento psicológico gratuitos aos dependentes. Somente com informações de apoio será possível reduzir os impactos desse novo tipo de vício social.
+            </p>
+            <p>07/07/2025</p>
+        </div>
+    </div>
+
+    <!-- projeto8 -->
+    <div id="projeto8" class="modal" role="dialog" aria-modal="true" aria-labelledby="titulo-projeto8">
+        <div class="modal-content">
+            <div class="flower-animation modal-flower" aria-hidden="true"></div>
+            <button class="close" aria-label="Fechar" onclick="closeModal('projeto8')">&times;</button>
+            <h2 id="titulo-projeto8">Nota: 800</h2>
+            <p>
+                As desigualdades sociais são um dos maiores obstáculos à consolidação da cidadania no Brasil. Nesse contexto, o trabalho voluntário surge como prática essencial, pois promove a solidariedade e auxilia populações em situação de vulnerabilidade, reforçando valores de empatia e justiça social.
+                <br>Segundo pesquisa do Datafolha (2021), mais da metade dos brasileiros já participaram de ações solidárias, especialmente durante a pandemia, quando 33 milhões de pessoas sofreram com a fome. Esses dados revelam que, ainda que o voluntariado não substitua políticas públicas, ele reduz os impactos imediatos da exclusão social, contribuindo para o bem-estar coletivo. Além disso, como defende Aristóteles, a vida ética é aquela dedicada ao bem comum, e o voluntariado concretiza essa máxima filosófica.
+                <br>Outro aspecto relevante é a formação cidadã. O engajamento em projetos voluntários amplia a consciência social, desenvolve habilidades profissionais e fortalece laços comunitários. A Agenda 2030 da ONU, ao incluir o voluntariado como meio para alcançar os Objetivos de Desenvolvimento Sustentável, reforça sua importância no combate às desigualdades.
+                <br>Portanto, é necessário que o Ministério da Cidadania, em parceria com escolas e ONGs, crie programas de incentivo ao voluntariado, com campanhas educativas e certificação de horas. Essa medida ampliará a cultura solidária no país, reduzindo desigualdades e promovendo inclusão social.
+            </p>
+            <p>15/09/2025</p>
+        </div>
+    </div>
+
+    <!-- projeto9 -->
+    <div id="projeto9" class="modal" role="dialog" aria-modal="true" aria-labelledby="titulo-projeto9">
+        <div class="modal-content">
+            <div class="flower-animation modal-flower" aria-hidden="true"></div>
+            <button class="close" aria-label="Fechar" onclick="closeModal('projeto9')">&times;</button>
+            <h2 id="titulo-projeto9">Nota: 1000</h2>
+            <p>
+                Na Grécia Antiga, o filósofo Platão afirmava que a formação do indivíduo dependia da harmonia entre corpo e alma, conceito que destaca a importância das fases do desenvolvimento humano. Contudo, na contemporaneidade, observa-se a crescente adultização infantil, fenômeno em que crianças assumem comportamentos e responsabilidades típicas de adultos. Essa problemática resulta da influência midiática e da falta de orientação familiar, comprometendo o amadurecimento emocional e psicológico das novas gerações.
+                <br>Em primeiro plano, a mídia e as redes sociais exercem papel central nesse processo. A exposição precoce a conteúdos voltados ao público adulto - como padrões de beleza, consumo e sexualização - estimula crianças a buscarem uma identidade que não condiz com sua idade. Segundo dados da Unicef (2023), cerca de 68% das crianças brasileiras entre 9 e 13 anos afirmam sentir-se pressionadas a agir como adolescentes nas redes. Tal pressão distorce valores e impede o desenvolvimento saudável da autoestima.
+                <br>Além disso, a ausência de limites familiares e de educação emocional intensifica o problema. Conforme aponta o filósofo Jean-Jacques Rousseau, "a infância tem suas maneiras de ver, pensar e sentir", e ignorá-las é ferir a essência da formação humana. Ao substituir o brincar pelo consumo e pela aparência, cria-se uma geração de adultos emocionalmente frágeis e incapazes de lidar com frustrações e responsabilidades.
+                <br>Portanto, é imprescindível que o Ministério da Educação, em parceria com escolas e psicólogos, implemente programas de orientação familiar e educação socioemocional desde o ensino fundamental. Além disso, as plataformas digitais devem reforçar a fiscalização de conteúdos voltados ao público infantil. Assim, será possível garantir que as crianças vivam plenamente sua infância, preservando sua identidade e equilíbrio emocional.
+            </p>
+            <p>26/09/2025</p>
+        </div>
+    </div>
+
+    <!-- projeto10 -->
+    <div id="projeto10" class="modal" role="dialog" aria-modal="true" aria-labelledby="titulo-projeto10">
+        <div class="modal-content">
+            <div class="flower-animation modal-flower" aria-hidden="true"></div>
+            <button class="close" aria-label="Fechar" onclick="closeModal('projeto10')">&times;</button>
+            <h2 id="titulo-projeto10">Nota: 865</h2>
+            <p>
+                O medo do envelhecimento se tornou crescente na sociedade atual, mas é imposto à imaginação o quanto tal fenômeno está infiltrado em nosso cotidiano. A especialista Fran Winandy, autora do livro "Etarismo: um novo nome para um velho preconceito", disserta de forma direta acerca do preconceito sofrido por idosos e do medo constante que o envelhecimento provoca. Esse estigma, enraizado nas relações sociais, reflete uma sociedade que valoriza o novo e marginaliza o velho, negando o ciclo natural da vida.
+                <br>O sociólogo Zygmunt Bauman explica que vivemos em uma "modernidade líquida", onde tudo se torna passageiro e descartável, inclusive as pessoas. Essa lógica reforça o etarismo, já que os idosos são vistos como ultrapassados em um mundo regido pela rapidez tecnológica e pela busca incessante pela juventude. Assim, muitos acabam sendo excluídos de espaços de convivência e oportunidades de trabalho, sentindo-se invisíveis diante de uma sociedade que privilegia a aparência e o consumo.
+                <br>Para combater o etarismo nas relações sociais, é fundamental promover a valorização da experiência e da sabedoria dos mais velhos. Políticas públicas que incentivem a inclusão digital e o protagonismo do idoso podem contribuir para diminuir o preconceito e ampliar sua participação social. Além disso, a educação tem papel essencial na formação de uma consciência coletiva que compreenda o envelhecer como parte natural e digna da vida humana.
+                <br>Conclui-se, portanto, que combater o etarismo exige empatia e transformação cultural. É preciso enxergar o envelhecimento não como um fim, mas como uma etapa de valor e aprendizado, reconhecendo nos idosos não a fragilidade, mas a riqueza de quem já viveu e ainda tem muito a ensinar.
+            </p>
+            <p>26/09/2025</p>
+        </div>
+    </div>
+
+    <!-- projeto11 -->
+    <div id="projeto11" class="modal" role="dialog" aria-modal="true" aria-labelledby="titulo-projeto11">
+        <div class="modal-content">
+            <div class="flower-animation modal-flower" aria-hidden="true"></div>
+            <button class="close" aria-label="Fechar" onclick="closeModal('projeto11')">&times;</button>
+            <h2 id="titulo-projeto11">Nota: 840</h2>
+            <p>
+                Na sociedade contemporânea marcada pela facilidade de acesso ao crédito, muitos jovens enfrentam dificuldades para administrar o próprio dinheiro. A ausência de uma base sólida em educação financeira durante a formação escolar faz com que a juventude creca sem compreender o valor do planejamento e da responsabilidade econômica. Nesse contexto, torna-se essencial discutir a importância da educação financeira como instrumento de autonomia e equilíbrio social.
+                <br>Segundo o filósofo Aristóteles, a virtude está no meio termo, ou seja, no equilíbrio entre os extremos. Essa reflexão aplica-se ao uso do dinheiro, pois o consumo consciente, exige moderação e sabedoria. Entretanto, as escolas raramente abordam temas como o orçamento, popança e investimentos, deixando os jovens vulneráveis as armadilhas do consumismo, intensificado pela mídia, e a cultura de aparência.
+                <br>Além disso, a falta de infraestrutura em edição, relacionada em educação financeira, o endividamento precoce e escassez de perspectiva do futuro. Jovens que não aprendem a administre suas financias, torna-se adultos dependentes e menos preparados para lidar com desafios econômicos, o que não afeta apenas a vida individual, mas o desenvolvimento coletivo do país.
+                <br>Portanto, é fundamental que o Estado, em parceria com o Ministério da Educação, implemente programas contínuos de educação financeira, nas escolas com profissionais qualificados que implementem experiências reais, e dinâmicas que ensinem desde cedo a importância da educação financeira. Ademais, campanhas de conscientização digital auxiliam, no consumismo desenfreado. Assim, formando-se uma geração mais consciente, equilibradas sabendo lidar com as distrações do futuro.
+            </p>
+            <p>10/10/2025</p>
+        </div>
+    </div>
+
+    <!-- projeto12 -->
+    <div id="projeto12" class="modal" role="dialog" aria-modal="true" aria-labelledby="titulo-projeto12">
+        <div class="modal-content">
+            <div class="flower-animation modal-flower" aria-hidden="true"></div>
+            <button class="close" aria-label="Fechar" onclick="closeModal('projeto12')">&times;</button>
+            <h2 id="titulo-projeto12">Nota: 985</h2>
+            <p>
+                No final da ditadura civil-militar, na década de 1980, destacou-se a canção "O bêbado e o equilibrista", de João Bosco e Aldir Blanc, símbolo da esperança e do reequilíbrio social. Essa referência demonstra o peso e a vitalidade da cultura popular brasileira.
+                <br>Contudo, ainda persistem desafios para sua valorização, como a invisibilidade das produções nacionais e a falta de infraestrutura educacional. A produção cinematográfica "O Auto da Compadecida", inspirada na obra de Ariano Suassuna, é um exemplo marcante da identidade brasileira ao retratar a realidade de grande parte da população. Apesar de seu sucesso no país, enfrenta barreiras de reconhecimento internacional, seja pela falta de divulgação, seja pela dificuldade em compreender suas nuances culturais. Essa limitação evidencia a invisibilidade da cultura popular diante do domínio das produções estrangeiras.
+                <br>Além disso, as deficiências educacionais intensificam o descaso com a cultura nacional. Segundo o sociólogo Zygmunt Bauman, na "modernidade líquida", as opiniões se tornam voláteis e superficiais. Nesse contexto, a ausência de uma formação cultural sólida favorece a alienação e o desapego aos valores locais. Após a Segunda Guerra Mundial, o Brasil passou a enxergar os Estados Unidos como modelo de progresso, consolidando um americanocentrismo que desvalorizou as manifestações culturais próprias.
+                <br>Portanto, é imprescindível que o Governo Federal, em parceria com a ANCINE e o Ministério da Educação, promova campanhas educativas e exibições de obras nacionais em escolas e meios digitais. Assim, a valorização da cultura popular se consolidaria, tornando o pensamento de Bauman aplicável, ao passo que as perspectivas culturais deixariam de ser voláteis e se tornariam firmes e duradouras.
+            </p>
+            <p>17/10/2025</p>
+        </div>
+    </div>
+
+    <!-- projeto13 -->
+    <div id="projeto13" class="modal" role="dialog" aria-modal="true" aria-labelledby="titulo-projeto13">
+        <div class="modal-content">
+            <div class="flower-animation modal-flower" aria-hidden="true"></div>
+            <button class="close" aria-label="Fechar" onclick="closeModal('projeto13')">&times;</button>
+            <h2 id="titulo-projeto13">Nota: 880</h2>
+            <p>
+                O período colonial, ocorrido no Brasil no século XIX, evidenciava a precarização do saneamento básico, uma vez que o planejamento era escasso. A população utilizava métodos simples, como poços, e o descarte inadequado de resíduos era feito em ruas ou fossas. Durante o século XX, foram implantadas expansões estruturais voltadas à saúde pública; contudo, tais medidas não foram totalmente aplicadas. Atualmente, no Brasil, as áreas afastadas e periféricas são as mais afetadas. Essa problemática decorre da carência de conhecimento da população e da ineficiência estatal em relação ao tema.
+                <br>Em primeira análise, observa-se a ignorância como fator agravante. No livro "Quarto de Despejo", de Carolina Maria de Jesus, escrito na década de 1960, a autora relata as vivências da favela do Canindé e as dificuldades enfrentadas pela falta de saneamento básico, realidade ainda recorrente. De maneira análoga, mesmo após mais de setenta anos da publicação da obra, as dificuldades de Carolina persistem no Brasil contemporâneo, revelando a falta de infraestrutura e de consciência sobre os riscos da ausência de saneamento.
+                <br>Outrossim, é notório o impacto da fragilidade governamental na universalização do saneamento. A música "A vida é desafio", do grupo Racionais MC's, aborda as adversidades vividas nas periferias, fortemente relacionadas à falta de políticas públicas efetivas. Essa negligência, somada à estagnação do país, mantém milhões de brasileiros sem acesso a serviços essenciais, comprometendo a saúde pública.
+                <br>Portanto, é fundamental que o Governo Federal, por meio dos órgãos do Ministério das Cidades (MCid) e da Saúde (MS), amplie o saneamento básico por meio de investimentos em infraestrutura e campanhas de conscientização. Dessa forma, será possível garantir qualidade de vida, reduzir doenças e construir um país mais justo e igualitário.
+            </p>
+            <p>24/10/2025</p>
+        </div>
+    </div>
+
+    <!-- projeto14 -->
+    <div id="projeto14" class="modal" role="dialog" aria-modal="true" aria-labelledby="titulo-projeto14">
+        <div class="modal-content">
+            <div class="flower-animation modal-flower" aria-hidden="true"></div>
+            <button class="close" aria-label="Fechar" onclick="closeModal('projeto14')">&times;</button>
+            <h2 id="titulo-projeto14">Nota: --</h2>
+            <p>
+                O sociólogo francês Pierre Bourdieu emprega o conceito de habitus para explicar como as diferentes camadas sociais desenvolvem percepções distintas sobre práticas corporais. Diante do exposto, o esporte está ativamente associado à definição de classes, algo que ocorre tanto pela negligência governamental quanto pela dinâmica desigual das relações sociais.
+                <br>A ignorância das relações parentais vem como um agravante para a inclusão de jovens no meio esportivo. Na obra cinematográfica Um Sonho Possível, observa-se como o acesso estruturado ao esporte pode transformar a vida de indivíduos marginalizados, rompendo ciclos de vulnerabilidade. No entanto, no contexto brasileiro, muitos jovens não alcançam oportunidades semelhantes devido à ausência de projetos públicos eficientes. Segundo o IBGE, o Brasil permanece entre os dez países mais desiguais do mundo, o que reforça o papel do esporte como mecanismo essencial de inclusão social, mas ainda restrito a poucos.
+                <br>Além disso, a negligência estatal pode ser percebida também na esfera cultural. A música "Diário de um Detento", dos Racionais MC's, evidencia como a falta de investimento em políticas públicas contribui para a exclusão e para a ausência de alternativas saudáveis, como o esporte, nas periferias. Assim, a prática esportiva, que deveria garantir interação, disciplina e desenvolvimento humano, torna-se um privilégio distante para grande parte da juventude vulnerável.
+                <br>Portanto, faz-se necessário que o Governo Federal, por meio do Ministério do Esporte, amplie projetos comunitários gratuitos, garantindo espaços esportivos seguros e profissionais qualificados. Paralelamente, campanhas midiáticas devem conscientizar famílias sobre a importância de incentivar a participação esportiva na formação cidadã. Dessa forma, o esporte pode finalmente cumprir seu papel transformador, rompendo barreiras sociais e promovendo igualdade de oportunidades.
+            </p>
+            <p>31/10/2025</p>
+        </div>
+    </div>
+
+    <!-- AGRADECIMENTOS + MINI CALENDÁRIO -->
+    <section class="thanks-calendar" aria-labelledby="agradecimentos-title">
+        <div class="thanks">
+            <h2 id="agradecimentos-title">Agradecimentos</h2>
+            <p>
+                Sou muito grata, a todos que me ajudaram nessa jornada que fizeram dela tão especial, tmj viu vai nos avisando! 😜🤘
+            <strong>Allana Manuely Xisto</strong>
+        </p>
+        </div>
+
+        <div class="mini-calendar" aria-label="Calendário de Dezembro">
+            <h3>Dezembro</h3>
+            <div id="calendar-grid" class="calendar-grid" aria-hidden="false"></div>
+            <div class="legend">
+                <span class="legend-item event-end">19/12 — Fim das aulas</span>
+                <span class="legend-item event-natal">25/12 — Natal</span>
+                <span class="legend-item event-ny">01/01 — Ano Novo</span>
+            </div>
+        </div>
+    </section>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-left">
+            <h3>Todo tipo de arte importa.</h3>
+            <p>Allana Manuely Xisto — Nº 1 — 3°D</p>
+        </div>
+
+        <div class="footer-right">
+            <h4>Redes sociais</h4>
+            <ul class="footer-links">
+                <li><a href="https://www.instagram.com/manuelyxisto/profilecard/?igsh=MWF1OHJibHFydWlxNw==" target="_blank">Instagram</a></li>
+                <li><a href="https://pin.it/4YaAREJ6G" target="_blank">Pinterest</a></li>
+                <li><a href="https://cursos.alura.com.br/user/" target="_blank">Alura</a></li>
+                <li><a href="https://github.com/LaninhaXisto" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-flowers" aria-hidden="true">
+        <div class="flower-footer flower1"></div>
+        <div class="flower-footer flower2"></div>
+        <div class="flower-footer flower3"></div>
+    </div>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
